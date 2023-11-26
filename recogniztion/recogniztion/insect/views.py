@@ -1,7 +1,5 @@
 from django.shortcuts import render,redirect
 from django.http import HttpResponse
-import requests
-from io import BytesIO
 import cv2
 import cvzone
 from .forms import Imageform
