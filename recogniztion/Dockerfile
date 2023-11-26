@@ -3,4 +3,4 @@ WORKDIR /insect
 copy . /insect
 RUN pip install -r requirements.txt
 CMD ["python", "manage.py","runserver"]
-EXPOSE 8080
+EXPOSE 8000
