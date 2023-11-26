@@ -1,6 +1,5 @@
 from django.shortcuts import render,redirect
 from django.http import HttpResponse
-import tensorflow as tf
 import requests
 from io import BytesIO
 import cv2
