@@ -28,6 +28,7 @@ def index(request):
 def page(request,predictions):
     #print("hello")
     #print(predictions)
+    print(predictions)
     if predictions+1 == 3:
         return render(request,'page.html',{"No_bite":True})
     elif predictions == 4:
